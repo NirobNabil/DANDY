@@ -1,5 +1,5 @@
 # DANDY
-Something to change
-something more to change
-more and more and more :)
-some more
+Now more rapidly than ever robots are becoming household companions from the once factory horses. The future of robots as human companions is highly dependent on its further devlopment of spacial awareness and inteliigence. With the purpose of alleviating the somewhat limited spacial awareness and more of the current home robots we envisioned a robot whcih if given a point to point movement command would create a map and follow along without any hiccups. Daily home bots have the biggest problems when met with obstacles when navigating certain places. Our bot would circumvent any obstacles and countinue in its path to the given destination. "Handy Dandy" our bot not only progresses to a sophisticated circum navigation system but also as the name suggests is equipped with a mecahnical hand which closely mimics the hand of apes. This addition catapults our bot's potential to staaggering heights.
+It is capable of performing tasks that can be sometimes dangerous or even impossible for people
+in addition to our daily house keeping chores
+###work in progress
