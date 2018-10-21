@@ -1,0 +1,240 @@
+body{
+    margin: -.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    /margin: .2em;
+    border-bottom: .2em solid black;
+    /overflow: hidden;
+    height: 100%; 
+}
+
+/.box:after{
+    top: 97%;
+    position: absolute;
+    content: '';
+    background: green;
+    height: 1em;
+    width: 100%;
+}
+
+.whole{
+    position: relative;
+    margin-left: 10em;
+    height: 31em;
+    width: 8em;
+    left: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one{
+    transform: rotate(20deg);
+    transform-origin: 100% 100%;
+}
+
+.two{
+    /background: pink;
+    transform: rotate(-40deg);
+    transform-origin: 0% 100%;
+}
+
+.three{
+    transform: rotate(40deg);
+    transform-origin: 100% 100%;
+}
+
+.four{
+    transform: rotate(-40deg);
+    transform-origin: 0% 100%;
+}
+
+
+
+/************* hand *****************/
+
+.hand_container{
+    top: 100%;
+    left: 100%;
+    height: 2em;
+    width: 2em;
+    position: relative;
+    transform: rotate(-30deg);
+    transform-origin: 0% 0%;
+}
+
+.hand{
+    position: absolute;
+    height: .3em;
+    width: 2em;
+    background: black;
+}
+
+._one{
+    transform: rotate(0deg);
+    transform-origin: 0% 100%;
+}
+
+._two{
+    transform: rotate(-90deg);
+    transform-origin: 100% 0%;
+}
+
+._three{
+    transform: rotate(90deg);
+    transform-origin: 0% 100%;
+}
+
+._four{
+    transform: rotate(0deg);
+    transform-origin: 0% 100%;
+    top: 100%;
+}
+
+
+
+/********** input *************/
+
+.input_container{
+    background: white;
+    padding: 1em;
+    border-left: .2em solid black;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    height: 100vh;
+    position: relative;
+    z-index: 10;
+}
+
+    /********* hand angle inputs ***********/
+
+    .hand_angles > div > input{
+        width: 20em;
+    }
+
+
+    .hand_angles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title{
+       font-family: cursive;
+       font-size: 1.1em;
+    }
+
+    .hand_angles > div{
+        margin-top: 1em;
+        width: 20em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hand_angles > div > input:nth-child(1){
+        padding: .2em;
+        margin-left: .4em;
+    }
+
+    .hand_angles > div > input:nth-child(2){
+        border: 1px solid rgba(0,0,0,.3);
+        width: 3em;
+        margin-left: .2em;
+    }
+
+    /************* finger angele inputs ***********/
+
+    /************* node inputs ****************/
+    
+.node_inputs_container{
+    
+}
+
+.node_inputs_title{
+    width: .5em;
+}
+
+.node_inputs_container > input{
+    padding-left: 0em;
+    margin-top: 1em;
+    margin-left: .5em;
+    width: 3em;
+}
+
+.add_node{
+    padding: .5em;
+    width: 7em;
+    border: 1px solid black;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+
+
+/********* nodes **************/
+
+.nodes{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /z-index: 120;
+}
+
+.node{
+    z-index: 200;
+    position: relative;
+    width: .5em;
+    height: .5em;
+    background: green;
+}
+
+
+/*********** grid ***************/
+
+.grid{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.axisX,axisY{
+    width: 100%;
+    height: 100%;
+}
+
+.line{
+    margin-top: .5em;
+    position: relative;
+    width: 100%;
+    height: .06em;
+    opacity: .1;
+    opacity: .2;
+    background: black;
+}
+
+.axisY{
+    overflow: visible;
+    top: -103%;
+    margin-left: 100%;
+    position: relative;
+    /border: 1em solid rgba(0, 0, 0, .1);
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+    transition: 5s;
+    height: 100%;
+    width: 100vw;
+}
+
+.Y{
+    
+}
+
+
+
+
+
